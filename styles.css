@@ -142,7 +142,7 @@ h1,h4 {
 /* for ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .ruler {
-        top: 20.7%;
+        top: 160px;
         position: absolute;
         z-index: 5;
         width: 4% !important;
