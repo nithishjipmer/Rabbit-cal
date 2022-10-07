@@ -1,0 +1,260 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    /* Hide horizontal scrollbar */
+}
+
+h1,h4 {
+    color: black;
+}
+
+/* navbar */
+
+.navbar-brand {
+    padding-left: 10%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding: 0 45px 0 0;
+}
+
+.nav-right {
+    padding-right: 9%;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white !important;
+    font-weight: 400;
+}
+
+/* contains the whole body */
+.wrapper {
+    height: 100%;
+    margin-top: 20px;
+}
+
+.header-container p,h1 {
+    margin: 0;
+}
+
+/* adds a margin around the divs used! */
+.boxed {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+/* this includes the rabbit and the ruler. */
+.row img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* divs containing the rabbit images. */
+.Image-container {
+    position: relative;
+    padding: 0px;
+}
+
+/* value style */
+.value {
+    color: blue;
+    font-size: larger;
+    margin-top: 8%;
+}
+
+/* these are the bottom cards containing the controls. */
+.mid1 {
+    margin-top: 0;
+    padding: 0.7%;
+    margin-bottom: 0;
+}
+
+.mid1 label {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+
+.mid2 {
+    margin-top: 1.5%;
+    padding: 0;
+}
+.mid3 {
+    margin-top: 0;
+    padding: 0.8%;
+    margin-bottom: 0;
+}
+
+#torch {
+    font-size: 50px;
+}
+
+#cotton {
+    font-size: 50px;
+    touch-action: none;
+}
+
+.torch-card p{
+    margin: 0;
+}
+
+.cotton-card p{
+    margin: 0;
+}
+
+/* #circle{
+    border-radius: 50%;
+    background-color:rgb(192, 12, 30);
+    position: absolute;
+    width: 25%;
+    height: 17%;
+    z-index: 4;
+    bottom: 40%;
+    left: 64%;
+    
+} */
+
+/* Ruler */
+
+@media only screen and (min-width: 1270px) {
+    .ruler {
+            top: 26%;
+            position: absolute;
+            z-index: 5;
+            width: 3.6% !important;
+            height: 33% !important;
+        }
+    .r1 {
+        right: 17.6%;
+    }
+    .r0 {
+        left: 17.6%;
+    }
+}
+
+/* for ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .ruler {
+        top: 20.7%;
+        position: absolute;
+        z-index: 5;
+        width: 4% !important;
+        height: 18.5% !important;
+    }
+    .r1 {
+        right: 18.7%;
+    }
+    .r0 {
+        left: 18.4%;
+    }
+}
+
+/* for ipad pro */
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .ruler {
+        top: 19.2%;
+        position: absolute;
+        z-index: 5;
+        width: 4% !important;
+        height: 19.5% !important;
+    }
+    .r1 {
+        right: 18.7%;
+    }
+    .r0 {
+        left: 18.4%;
+    }
+}
+
+/* for ipad pro 12.9' */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .ruler {
+        top: 15.5%;
+        right: 0%;
+        position: absolute;
+        z-index: 5;
+        width: 4% !important;
+        height: 22% !important;
+    }
+    .r1 {
+        right: 16.9%;
+    }
+    .r0 {
+        left: 17.1%;
+    }
+}
+
+/* ipad air */
+@media only screen and (min-device-width: 1180px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .ruler {
+        top: 19.5%;
+        position: absolute;
+        z-index: 5;
+        width: 4% !important;
+        height: 22% !important;
+    }
+    .r1 {
+        right: 18.7%;
+    }
+    .r0 {
+        left: 18.4%;
+    }
+}
+
+.green1{
+    color: blue;
+}
+
+.header-container {
+    font-size: larger;
+}
+#inv1,#inv2{
+    position: absolute;
+    /* background-color: black; */
+    z-index: 10;
+}
+#inv1{
+    width: 25%;
+    height: 22%;
+    bottom: 22%;
+    left:71%;
+}
+#inv2{
+    width: 24%;
+    height: 21%;
+    bottom: 22%;
+    right:67%;
+}
+#box{
+    width:20% ;
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    bottom: 60%;
+    padding-top: 2%;
+    margin: auto;
+    z-index: 20;
+    display: none;
+    height: 20% ;
+    background-color:rgb(198, 178, 212);
+    
+}
+select option:checked{
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+    
+}
+.check{
+    margin-top: 5%;
+}
+
+.selected{
+    box-shadow:0px 12px 22px 1px #198754;
+ }
+
